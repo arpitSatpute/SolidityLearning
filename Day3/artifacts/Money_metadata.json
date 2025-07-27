@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "receiverAddress",
+						"type": "address"
+					}
+				],
+				"name": "drain",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalMoney",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Money.sol": "Money"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Money.sol": {
+			"keccak256": "0xa6c6073921173ca18e937b72a28d9b23cb86711936e34639ae9f0a173d9d0008",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://853ed4ed2235ae43a385907def76a09c19db5c74be90d06fca3e407cd8e52fa2",
+				"dweb:/ipfs/QmU18S2jZyUVX6N8CLTvtcBAVcavftRvtTc9teG7SpnCyR"
+			]
+		}
+	},
+	"version": 1
+}
