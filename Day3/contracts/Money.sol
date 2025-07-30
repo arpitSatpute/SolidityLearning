@@ -6,8 +6,6 @@ contract Money{
 
     uint public totalMoney;
 
-
-
     function deposit() public payable {
         totalMoney += msg.value;
     }
